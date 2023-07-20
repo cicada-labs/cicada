@@ -2,34 +2,22 @@
 
 This project is the frontend service for Cicada.
 
-## Recommended IDE Setup
+# Usage
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+1. Copy the [backend project](https://aircode.cool/w6uizm6x3c) in [AirCode](https://aircode.io) and set token (any private string) in environments.
 
-## Customize configuration
+![](https://pkxfpp.hk.aircodecdn.com/1689834236189.1689834293088_yu16pyq1g1.jpg)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+2. Deploy the backend project.
 
-## Project Setup
+3. Visit https://cicada-fe.vercel.app/. Set https://&lt;your deployed app&gt;/&lt;your token&gt; to login.
 
-```sh
-npm install
-```
+![](https://pkxfpp.hk.aircodecdn.com/1689834533762.1689834549424_ij0nb9jjkme.jpg)
 
-### Compile and Hot-Reload for Development
+4. Scroll to the bottom of the page, drag "Add to Favorite" button onto your browser's bookmark bar.
 
-```sh
-npm run dev
-```
+![](https://pkxfpp.hk.aircodecdn.com/Jul-20-202314-45-40.1689835607581_ffvq1uetiw.gif)
 
-### Compile and Minify for Production
+5. Visit any webpage, click "Add to Favorite" button to add something to your favorite collection.
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+![](https://pkxfpp.hk.aircodecdn.com/Jul-20-202314-49-57.1689835859647_4x8mw4s4g3l.gif)
