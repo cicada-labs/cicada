@@ -2,7 +2,7 @@
 import RecordList from './components/RecordList.vue'
 import { getParmams } from './utils/helpers.js';
 
-const appServer = 'https://cicada.vercel.app';
+const appServer = 'https://cicada-fe.vercel.app';
 // const appServer = 'http://localhost:5173';
 
 import { ref } from 'vue'
