@@ -10,7 +10,7 @@ This project is the frontend service for Cicada.
 
 2. Deploy the backend project.
 
-3. Visit https://cicada-fe.vercel.app/. Set https://&lt;your deployed app&gt;/&lt;your token&gt; to login.
+3. Visit https://cicada-fe.vercel.app/. Set https://&lt;your deployed app&gt;/auth?token=&lt;your token&gt; to login.
 
 ![](https://pkxfpp.hk.aircodecdn.com/1689834533762.1689834549424_ij0nb9jjkme.jpg)
 
