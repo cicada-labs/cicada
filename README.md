@@ -2,7 +2,7 @@
 
 <img src="https://pkxfpp.hk.aircodecdn.com/noun-origami-cicada-1572394.1690266256879_gbh9itgdkn.svg" width="150">
 
-Cicade is a decentralized personal bookmarking app that enables individuals to easily bookmark and manage interesting webpages they have visited.
+Cicada is a decentralized personal bookmarking app that enables individuals to easily bookmark and manage interesting webpages they have visited.
 
 # Installation
 
