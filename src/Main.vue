@@ -81,6 +81,7 @@ header {
 h1 {
   text-transform: uppercase;
   font-size: 3.5rem;
+  margin-left: -5%;
 }
 
 .logo {
