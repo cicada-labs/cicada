@@ -1,4 +1,4 @@
-# cicada-fe
+# CICADA
 
 <img src="https://pkxfpp.hk.aircodecdn.com/noun-origami-cicada-1572394.1690266256879_gbh9itgdkn.svg" width="150">
 
