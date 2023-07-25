@@ -1,8 +1,8 @@
 # cicada-fe
 
-This project is the frontend service for Cicada.
+Cicade is a decentralized personal bookmarking app that enables individuals to easily bookmark and manage interesting webpages they have visited.
 
-# Usage
+# Installation
 
 1. Copy the [backend project](https://aircode.cool/w6uizm6x3c) in [AirCode](https://aircode.io) and set token (any private string) in environments.
 
