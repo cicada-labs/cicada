@@ -40,7 +40,7 @@ const addToFavorite = `javascript:void function(e, t, n, r, c, i, s, o, u) {\n  
 
 <template>
   <header>
-    <h1><a href="/">My Favorite</a></h1>
+    <h1><a href="/"><img class="logo" alt="Cicada logo" src="./assets/logo.svg"> Cicada</a></h1>
     <div v-if="service.token" class="wrapper">
       <form class="form-inline" autocomplete="off">
         <div class="form-group">
@@ -78,9 +78,14 @@ header {
   padding-bottom: 40px;
 }
 
+h1 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+
 .logo {
-  display: block;
-  margin: 0 auto 2rem;
+  display: inline-block;
+  margin-bottom: -60px;
 }
 
 .form-group input {

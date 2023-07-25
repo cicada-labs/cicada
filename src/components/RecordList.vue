@@ -23,12 +23,14 @@ const props = defineProps({
 })
 
 const records = ref({result: []});
+const loadState = ref('loading');
 const location = window.location.href;
 const pagination = ref([]);
 
 const emit = defineEmits(['update:footer', 'update:search']);
 
 const getRecords = async ({page, keywords} = {}) => {
+  loadState.value = 'loading';
   let qureyStr = '?';
   let api = LIST_API;
   const params = getParmams();
@@ -129,7 +131,7 @@ const getRecords = async ({page, keywords} = {}) => {
 
   pagination.value = list;
 
-  console.log(pagination.value);
+  loadState.value = 'loaded';
   emit('update:footer', true);
 };
 
@@ -171,7 +173,7 @@ addEventListener("popstate", async (event) => {
 </script>
 
 <template>
-  <div class="cicada-list">
+  <div :class="`cicada-list ${loadState}`">
     <div v-for="record in records.result" :key="record._id" class="article-item">
       <h2><a :href="record.url" target="_blank">{{ record.title }}</a></h2>
       <p class="datetime">Updated At <time>{{ new Date(record.updatedAt).toLocaleString() }}</time></p>
@@ -197,6 +199,9 @@ addEventListener("popstate", async (event) => {
 </template>
 
 <style scoped>
+.cicada-list.loading:empty::before {
+  content: 'Loading...';
+}
 .article-item {
   padding-bottom: 10px;
   border-bottom: 1px solid #ddd;
