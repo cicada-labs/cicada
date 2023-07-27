@@ -6,7 +6,7 @@ Cicada is a decentralized personal bookmarking app that enables individuals to e
 
 # Installation
 
-1. Copy the [backend project](https://aircode.cool/w6uizm6x3c) in [AirCode](https://aircode.io) and set token (any private string) in environments.
+1. [Copy Code to AirCode](https://aircode.io/dashboard?share_shareId=w6uizm6x3c&share_name=cicada&share_runtime=node/v16) and set token (any private string) in environments.
 
 <img src="https://pkxfpp.hk.aircodecdn.com/1689834236189.1689834293088_yu16pyq1g1.jpg" width="300">
 
