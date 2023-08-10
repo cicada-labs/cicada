@@ -4,11 +4,13 @@
 
 Cicada is a decentralized personal bookmarking app that enables individuals to easily bookmark and manage interesting webpages they have visited.
 
-This is the backend part of the [cicada app](https://github.com/cicada-labs/cicada).
+This is the frontend part of the [cicada app](https://github.com/cicada-labs/cicada).
 
 ## Online demo
 
+👉 https://cicada-fe.vercel.app/
 
+<img src="https://aircode-yvo.b-cdn.net/resource/1691664165236-vgxsswpor1g.jpg" width="350">
 
 ## Usage
 
