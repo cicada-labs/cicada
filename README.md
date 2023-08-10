@@ -4,24 +4,30 @@
 
 Cicada is a decentralized personal bookmarking app that enables individuals to easily bookmark and manage interesting webpages they have visited.
 
-# Installation
+This is the backend part of the [cicada app](https://github.com/cicada-labs/cicada).
 
-1. [Copy Code to AirCode](https://aircode.io/dashboard?share_shareId=w6uizm6x3c&share_name=cicada&share_runtime=node/v16) and set token (any private string) in environments.
+## Online demo
 
-<img src="https://pkxfpp.hk.aircodecdn.com/1689834236189.1689834293088_yu16pyq1g1.jpg" width="300">
 
-2. Deploy the backend project.
 
-<img src="https://pkxfpp.hk.aircodecdn.com/-1.1690270786099_gju83adv7q6.png" width="300">
+## Usage
 
-4. Visit https://cicada-fe.vercel.app/. Set `https://<your deployed url>/auth?token=<your token>` to login.
+1. 👇 One-click copy code to create your own project.
 
-<img src="https://pkxfpp.hk.aircodecdn.com/1689834533762.1689834549424_ij0nb9jjkme.jpg" width="300">
+[![Deploy with AirCode](https://aircode.io/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=AirCodeLabs&repo=aircode&branch=main&path=examples%2Fcicada&appname=cicada)
+
+2. Set a secret token for your own.
+
+<img src="https://aircode-yvo.b-cdn.net/resource/1691662518944-odfw4zuulq.jpg" width="300">
+
+3. Visit https://cicada-fe.vercel.app/. Set `https://<your deployed url>/auth?token=<your token>` to login.
+
+<img src="https://aircode-yvo.b-cdn.net/resource/1691662657282-5k7zhkf3d9.jpg" width="300">
 
 4. Scroll to the bottom of the page, drag "Add to Favorite" button onto your browser's bookmark bar.
 
-<img src="https://pkxfpp.hk.aircodecdn.com/Jul-20-202314-45-40.1689835607581_ffvq1uetiw.gif" width="300">
+<img src="https://aircode-yvo.b-cdn.net/resource/1691662783617-htgs1ft72ob.jpg" width="300">
 
 5. Visit any webpage, click "Add to Favorite" button to add something to your favorite collection.
 
-<img src="https://pkxfpp.hk.aircodecdn.com/Jul-20-202314-49-57.1689835859647_4x8mw4s4g3l.gif" width="300">
+<img src="https://aircode-yvo.b-cdn.net/resource/1-rwlaryuibhl.jpg" width="300">
