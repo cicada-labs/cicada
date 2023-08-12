@@ -33,3 +33,7 @@ This is the frontend part of the [cicada app](https://github.com/cicada-labs/cic
 5. Visit any webpage, click "Add to Favorite" button to add something to your favorite collection.
 
 <img src="https://aircode-yvo.b-cdn.net/resource/1-rwlaryuibhl.jpg" width="300">
+
+## The Backend Part
+
+See [here](https://github.com/AirCodeLabs/aircode/tree/main/examples/cicada).
